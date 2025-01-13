@@ -8,7 +8,7 @@ const app = new cdk.App();
 
 
 // Production stack
-new ImageOptimizationStack(app, "ImgTransformationStackProd", {});
+new ImageOptimizationStack(app, "ImgTransformationStackPreProd", {});
 
 // Dev stack
 new ImageOptimizationStack(app, "ImgTransformationStackDev", {});
